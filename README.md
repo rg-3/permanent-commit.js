@@ -47,4 +47,4 @@ Clone the repository:
 
 ## <a id='license'>License</a>
 
-The MIT license, see [./LICENSE.txt](./LICENSE.txt) for details.
+The MIT license, see [./src/LICENSE.txt](./src/LICENSE.txt) for details.
