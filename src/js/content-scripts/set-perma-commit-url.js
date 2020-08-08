@@ -28,7 +28,7 @@
   };
 
   document.addEventListener('DOMContentLoaded', () => {
-    setInterval(() => setPermaURL(getNodes(), 1000));
+    setInterval(() => setPermaURL(getNodes()), 1000);
     setPermaURL(getNodes());
   });
 })();
