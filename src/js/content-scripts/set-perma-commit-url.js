@@ -1,13 +1,9 @@
 (function() {
   const pullCommitURLPattern = /^\/(\w+)\/([A-Za-z0-9-_]+)\/pull\/\d+\/commits\/(\w+)$/;
-  const commitsURLPattern = /\/commits$/;
+  const commitsURLPattern    = /\/commits$/;
 
   const getPermaURL = (organization, repoName, commitSHA) => {
     return `https://github.com/${organization}/${repoName}/commit/${commitSHA}`;
-  };
-
-  const isPullCommitURL = (target) => {
-    return pullCommitURLPattern.test(target.getAttribute('href'));
   };
 
   const setPermaURL = (links) => {
@@ -17,6 +13,10 @@
         link.setAttribute('href', getPermaURL(RegExp.$1, RegExp.$2, RegExp.$3))
       }
     }
+  };
+
+  const isPullCommitURL = (target) => {
+    return pullCommitURLPattern.test(target.getAttribute('href'));
   };
 
   const getNodes = () => {
