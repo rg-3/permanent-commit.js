@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Permanent Commit",
+  "description": "A browser extension that rewrites the commit URLs on a GitHub pull request to permanent URLs.",
+  "version": "0.1.0",
+  "permissions": ["https://github.com/*/*/pull/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/pull/*"],
+      "js": ["/js/content-scripts/set-perma-commit-url.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
