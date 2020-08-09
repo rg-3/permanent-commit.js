@@ -10,7 +10,7 @@
     for (let i = 0; i < links.length; i++) {
       const link = links[i];
       if (isPullCommitURL(link)) {
-        link.setAttribute('href', getPermaURL(RegExp.$1, RegExp.$2, RegExp.$3))
+        link.setAttribute('href', getPermaURL(RegExp.$1, RegExp.$2, RegExp.$3));
       }
     }
   };
