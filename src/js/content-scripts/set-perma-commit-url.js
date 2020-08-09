@@ -27,8 +27,6 @@
     }
   };
 
-  document.addEventListener('DOMContentLoaded', () => {
-    setInterval(() => setPermaURL(getNodes()), 1000);
-    setPermaURL(getNodes());
-  });
+  setInterval(() => setPermaURL(getNodes()), 1000);
+  setPermaURL(getNodes());
 })();

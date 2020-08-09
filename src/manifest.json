@@ -9,7 +9,7 @@
     {
       "matches": ["https://github.com/*/*/pull/*"],
       "js": ["/js/content-scripts/set-perma-commit-url.js"],
-      "run_at": "document_start"
+      "run_at": "document_end"
     }
   ]
 }
