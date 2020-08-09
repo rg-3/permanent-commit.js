@@ -5,6 +5,7 @@
 * <a href='#introduction'>Introduction</a>
 * <a href='#background'>Background</a>
 * <a href='#install'>Install</a>
+* <a href='#icon-credit'>Credits</a>
 * <a href='#license'>License</a>
 
 ## <a id='introduction'>Introduction</a>
@@ -27,8 +28,9 @@ it instead.
 
 ## <a id='install'> Install </a>
 
-This extension is not on the Chrome webstore yet.
-For the time being, it can be installed as an unpacked extension.
+This extension is not on the Chrome webstore and I'm not sure I will publish
+it on the webstore. For the time being, it can be installed as an unpacked
+extension.
 
 **Step 1**
 
@@ -44,6 +46,12 @@ Clone the repository:
   * Click `Load unpacked extension`.
   * Choose the `src/` directory from the cloned repository directory.
   * Done!
+
+## <a id='icon-credit'>Credits</a>
+
+Credit and thanks to [IconKing](https://freeicons.io/profile/3) from
+[freeicons.io](https://freeicons.io) for providing the [icons](src/images)
+used by this extension.
 
 ## <a id='license'>License</a>
 
