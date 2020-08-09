@@ -1,5 +1,5 @@
 (function() {
-  const pullCommitURLPattern = /^\/([A-Za-z0-9-_.]+)\/([A-Za-z0-9-_.]+)\/pull\/\d+\/commits\/(\w+)$/;
+  const pullCommitURLPattern = /^\/([A-Za-z0-9-_.]+)\/([A-Za-z0-9-_.]+)\/pull\/\d+\/commits\/([a-z0-9]+)$/;
   const commitsURLPattern    = /\/commits$/;
 
   const getPermaURL = (username, repoName, sha) => {
