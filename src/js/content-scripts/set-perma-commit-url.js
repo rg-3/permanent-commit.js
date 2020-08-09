@@ -21,7 +21,8 @@
 
   const getNodes = () => {
     if (commitsURLPattern.test(location.href)) {
-      return document.querySelectorAll('.TimelineItem-body li a');
+      const sel = '#commits_bucket .TimelineItem li a.js-navigation-open';
+      return document.querySelectorAll(sel);
     } else {
       return [];
     }
