@@ -1,9 +1,9 @@
 (function() {
-  const pullCommitURLPattern = /^\/(\w+)\/([A-Za-z0-9-_]+)\/pull\/\d+\/commits\/(\w+)$/;
+  const pullCommitURLPattern = /^\/([A-Za-z0-9-_]+)\/([A-Za-z0-9-_]+)\/pull\/\d+\/commits\/(\w+)$/;
   const commitsURLPattern    = /\/commits$/;
 
-  const getPermaURL = (organization, repoName, commitSHA) => {
-    return `https://github.com/${organization}/${repoName}/commit/${commitSHA}`;
+  const getPermaURL = (username, repoName, sha) => {
+    return `https://github.com/${username}/${repoName}/commit/${sha}`;
   };
 
   const setPermaURL = (links) => {
