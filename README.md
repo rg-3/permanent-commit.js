@@ -1,4 +1,6 @@
-# permanent-commit.js
+<p align="center">
+<img alt="screenshot" src="/src/images/demo.png">
+</p>
 
 **Table of contents**
 
@@ -12,6 +14,8 @@
 
 A Chrome extension that rewrites the commit URLs on a GitHub pull request to
 permanent URLs.
+
+Disclaimer: In no way whatsoever is this an official GitHub product.
 
 ## <a id='background'>Background</a>
 
