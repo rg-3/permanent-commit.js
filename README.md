@@ -15,8 +15,6 @@
 A Chrome extension that rewrites the commit URLs on a GitHub pull request to
 permanent URLs.
 
-Disclaimer: In no way whatsoever is this an official GitHub product.
-
 ## <a id='background'>Background</a>
 
 The pull request "Commits" tab links to commits using a URL that will expire
