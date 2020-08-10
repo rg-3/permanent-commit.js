@@ -25,6 +25,6 @@
     }
   };
 
-  setInterval(() => setPermaURL(getNodes()), 1000);
+  setInterval(() => setPermaURL(getNodes()), 500);
   setPermaURL(getNodes());
 })();
