@@ -25,8 +25,9 @@ click on them.
 
 The good news is that the commit is not totally lost and it can be referenced
 using a different, permanent URL (`/<org_name/<repo_name/commit/<sha>`). This
-extension takes that permanent URL and updates the "Commits" tab to reference
-it instead.
+extension takes that permanent URL and updates the "Commits" tab to reference 
+it instead. Commits that appear on the discussion page are also updated to have
+permanent URLs.
 
 ## <a id='install'> Install </a>
 
