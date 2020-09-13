@@ -1,8 +1,8 @@
 # CHANGELOG
 
-## HEAD
+## v0.2.0
 
-* Nothing yet.
+* Update commit URLs to permanent URLs on discussion page.
 
 ## v0.1.0
 
