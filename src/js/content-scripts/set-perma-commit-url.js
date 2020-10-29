@@ -18,8 +18,8 @@
 
   const getNodes = () => {
     if (commitsURLPattern.test(location.href)) {
-      const sel = '#commits_bucket .TimelineItem li a.js-navigation-open, #discussion_bucket .commit-message a';
-      return document.querySelectorAll(sel);
+      const sel = '#commits_bucket .TimelineItem li a.js-navigation-open, #discussion_bucket .js-commit-group .TimelineItem a';
+      return [...document.querySelectorAll(sel)].filter((el) => pullCommitURLPattern.test(el.getAttribute('href')));
     } else {
       return [];
     }
