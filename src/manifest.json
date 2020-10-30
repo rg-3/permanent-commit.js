@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Permanent Commit",
   "description": "Rewrites the commit URLs on a GitHub pull request to permanent URLs.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "permissions": ["https://github.com/*/*/pull/*"],
   "icons": {"16": "images/icon16.png", "48": "images/icon48.png", "128": "images/icon128.png"},
   "content_scripts": [
